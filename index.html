@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipMart - Your Online Shopping Destination</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="src/styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#" id="home-link">
+                <i class="bi bi-bag-check-fill me-2"></i>FlipMart
+            </a>
+            
+            <!-- Search Bar -->
+            <div class="flex-grow-1 mx-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="search-input" placeholder="Search for products, brands and more">
+                    <button class="btn btn-outline-light" type="button" id="search-btn">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="d-flex align-items-center">
+                <button class="btn btn-outline-light me-2" id="favorites-btn">
+                    <i class="bi bi-heart"></i>
+                    <span class="ms-1 d-none d-md-inline">Favorites</span>
+                    <span class="badge bg-danger ms-1" id="favorites-count">0</span>
+                </button>
+                <button class="btn btn-outline-light me-2" id="wishlist-btn">
+                    <i class="bi bi-bookmark"></i>
+                    <span class="ms-1 d-none d-md-inline">Wishlist</span>
+                    <span class="badge bg-info ms-1" id="wishlist-count">0</span>
+                </button>
+                <button class="btn btn-outline-light me-2" id="compare-btn">
+                    <i class="bi bi-arrow-left-right"></i>
+                    <span class="ms-1 d-none d-md-inline">Compare</span>
+                    <span class="badge bg-warning ms-1" id="compare-count">0</span>
+                </button>
+                <button class="btn btn-outline-light" id="cart-btn">
+                    <i class="bi bi-cart"></i>
+                    <span class="ms-1 d-none d-md-inline">Cart</span>
+                    <span class="badge bg-success ms-1" id="cart-count">0</span>
+                </button>
+                <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        <i class="bi bi-person-circle"></i>
+                        <span class="ms-1 d-none d-md-inline">Account</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" id="profile-link"><i class="bi bi-person me-2"></i>My Profile</a></li>
+                        <li><a class="dropdown-item" href="#" id="orders-link"><i class="bi bi-box-seam me-2"></i>My Orders</a></li>
+                        <li><a class="dropdown-item" href="#" id="contact-shop-link"><i class="bi bi-telephone me-2"></i>Contact Shop</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" id="settings-link"><i class="bi bi-gear me-2"></i>Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container-fluid p-0">
+        <!-- Home View -->
+        <div id="home-view" class="view-container">
+            <!-- Hero Section -->
+            <section class="hero-section bg-gradient-primary text-white py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="display-4 fw-bold mb-3">Discover Amazing Products</h1>
+                            <p class="lead mb-4">Shop from millions of products with great deals and fast delivery</p>
+                            <button class="btn btn-warning btn-lg" onclick="scrollToProducts()">
+                                Shop Now <i class="bi bi-arrow-right ms-2"></i>
+                            </button>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg" 
+                                 alt="Shopping" class="img-fluid rounded-3 shadow-lg" style="max-height: 400px;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Filters Section -->
+            <section class="filters-section bg-light py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="mb-3">Categories</h5>
+                            <div class="category-filters" id="category-filters">
+                                <!-- Categories will be dynamically loaded -->
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="mb-3">Price Range</h5>
+                            <div class="mb-3">
+                                <input type="range" class="form-range" id="price-range" min="0" max="200000" step="1000" value="200000">
+                                <div class="d-flex justify-content-between small text-muted">
+                                    <span>₹0</span>
+                                    <span id="price-display">₹2,00,000+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="mb-3">Brand</h5>
+                            <div class="brand-filters" id="brand-filters">
+                                <!-- Brands will be dynamically loaded -->
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="mb-3">Sort By</h5>
+                            <select class="form-select" id="sort-select">
+                                <option value="relevance">Relevance</option>
+                                <option value="price-low-high">Price: Low to High</option>
+                                <option value="price-high-low">Price: High to Low</option>
+                                <option value="rating">Customer Rating</option>
+                                <option value="newest">Newest First</option>
+                                <option value="discount">Best Discount</option>
+                                <option value="popularity">Most Popular</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-3">
+                            <h6 class="mb-2">Quick Filters</h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button class="btn btn-outline-primary btn-sm quick-filter" data-filter="discount">On Sale</button>
+                                <button class="btn btn-outline-primary btn-sm quick-filter" data-filter="rating">Top Rated</button>
+                                <button class="btn btn-outline-primary btn-sm quick-filter" data-filter="new">New Arrivals</button>
+                                <button class="btn btn-outline-primary btn-sm quick-filter" data-filter="premium">Premium</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="mb-2">Availability</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="in-stock-only" checked>
+                                <label class="form-check-label" for="in-stock-only">In Stock Only</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <button class="btn btn-outline-secondary btn-sm me-2" id="clear-filters">
+                                    <i class="bi bi-x-circle me-1"></i>Clear All Filters
+                                </button>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="grid-view" checked>
+                                    <label class="form-check-label" for="grid-view">
+                                        <i class="bi bi-grid-3x3-gap"></i> Grid View
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Section -->
+            <section class="products-section py-5" id="products-section">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2 class="fw-bold">Featured Products</h2>
+                        <div class="text-muted">
+                            <span id="products-count">0</span> products found
+                        </div>
+                    </div>
+                    <div class="row" id="products-container">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Product Detail View -->
+        <div id="product-detail-view" class="view-container d-none">
+            <div class="container py-4">
+                <button class="btn btn-outline-primary mb-3" id="back-to-home">
+                    <i class="bi bi-arrow-left me-2"></i>Back to Products
+                </button>
+                <div id="product-detail-content">
+                    <!-- Product details will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart View -->
+        <div id="cart-view" class="view-container d-none">
+            <div class="container py-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2 class="fw-bold">Shopping Cart</h2>
+                    <button class="btn btn-outline-primary" id="back-from-cart">
+                        <i class="bi bi-arrow-left me-2"></i>Continue Shopping
+                    </button>
+                </div>
+                <div id="cart-content">
+                    <!-- Cart items will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Favorites View -->
+        <div id="favorites-view" class="view-container d-none">
+            <div class="container py-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2 class="fw-bold">My Favorites</h2>
+                    <button class="btn btn-outline-primary" id="back-from-favorites">
+                        <i class="bi bi-arrow-left me-2"></i>Back to Products
+                    </button>
+                </div>
+                <div class="row" id="favorites-content">
+                    <!-- Favorite items will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Wishlist View -->
+        <div id="wishlist-view" class="view-container d-none">
+            <div class="container py-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2 class="fw-bold">My Wishlist</h2>
+                    <button class="btn btn-outline-primary" id="back-from-wishlist">
+                        <i class="bi bi-arrow-left me-2"></i>Back to Products
+                    </button>
+                </div>
+                <div class="row" id="wishlist-content">
+                    <!-- Wishlist items will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Compare View -->
+        <div id="compare-view" class="view-container d-none">
+            <div class="container-fluid py-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2 class="fw-bold">Product Comparison</h2>
+                    <button class="btn btn-outline-primary" id="back-from-compare">
+                        <i class="bi bi-arrow-left me-2"></i>Back to Products
+                    </button>
+                </div>
+                <div id="compare-content">
+                    <!-- Comparison will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact Shop Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title"><i class="bi bi-telephone me-2"></i>Contact Shop</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6><i class="bi bi-geo-alt-fill text-primary me-2"></i>Store Address</h6>
+                            <p class="mb-3">FlipMart Electronics<br>
+                            123 Shopping Street<br>
+                            Tech Plaza, Floor 2<br>
+                            Mumbai, Maharashtra 400001</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6><i class="bi bi-clock-fill text-primary me-2"></i>Store Hours</h6>
+                            <p class="mb-3">Monday - Saturday: 10:00 AM - 9:00 PM<br>
+                            Sunday: 11:00 AM - 8:00 PM<br>
+                            <small class="text-muted">Closed on public holidays</small></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6><i class="bi bi-telephone-fill text-success me-2"></i>Phone Numbers</h6>
+                            <p class="mb-2"><strong>Customer Service:</strong><br>
+                            <a href="tel:+911234567890" class="text-decoration-none">+91 12345 67890</a></p>
+                            <p class="mb-3"><strong>Technical Support:</strong><br>
+                            <a href="tel:+911234567891" class="text-decoration-none">+91 12345 67891</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6><i class="bi bi-envelope-fill text-info me-2"></i>Email Support</h6>
+                            <p class="mb-2"><strong>General Inquiries:</strong><br>
+                            <a href="mailto:info@flipmart.com" class="text-decoration-none">info@flipmart.com</a></p>
+                            <p class="mb-3"><strong>Order Support:</strong><br>
+                            <a href="mailto:orders@flipmart.com" class="text-decoration-none">orders@flipmart.com</a></p>
+                        </div>
+                    </div>
+                    <div class="alert alert-info">
+                        <i class="bi bi-info-circle me-2"></i>
+                        <strong>Quick Response:</strong> For fastest support, call us during business hours or use our live chat feature.
+                    </div>
+                    <div class="text-center">
+                        <h6>Follow Us</h6>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-twitter"></i> Twitter
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" onclick="window.open('https://wa.me/911234567890', '_blank')">
+                        <i class="bi bi-whatsapp me-2"></i>WhatsApp Chat
+                    </button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='tel:+911234567890'">
+                        <i class="bi bi-telephone me-2"></i>Call Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advanced Search Modal -->
+    <div class="modal fade" id="advancedSearchModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-search me-2"></i>Advanced Search</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Product Name</label>
+                            <input type="text" class="form-control" id="adv-search-name" placeholder="Enter product name">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Brand</label>
+                            <select class="form-select" id="adv-search-brand">
+                                <option value="">All Brands</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Category</label>
+                            <select class="form-select" id="adv-search-category">
+                                <option value="">All Categories</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Minimum Rating</label>
+                            <select class="form-select" id="adv-search-rating">
+                                <option value="">Any Rating</option>
+                                <option value="4.5">4.5 Stars & Above</option>
+                                <option value="4.0">4.0 Stars & Above</option>
+                                <option value="3.5">3.5 Stars & Above</option>
+                                <option value="3.0">3.0 Stars & Above</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Price Range</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="number" class="form-control" id="adv-search-min-price" placeholder="Min Price">
+                                </div>
+                                <div class="col-6">
+                                    <input type="number" class="form-control" id="adv-search-max-price" placeholder="Max Price">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Features</label>
+                            <input type="text" class="form-control" id="adv-search-features" placeholder="Search in features">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="clear-advanced-search">Clear</button>
+                    <button type="button" class="btn btn-primary" id="apply-advanced-search">Apply Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bill Modal -->
+    <div class="modal fade" id="billModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title"><i class="bi bi-receipt me-2"></i>Order Summary</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="bill-content">
+                    <!-- Bill details will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" id="place-order">
+                        <i class="bi bi-check-circle me-2"></i>Place Order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Images Modal -->
+    <div class="modal fade" id="imagesModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Product Images</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center" id="images-modal-content">
+                    <!-- Images will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="src/scripts/main.js"></script>
+</body>
+</html>
