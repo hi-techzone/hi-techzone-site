@@ -1,6 +1,41 @@
 [
 
   {
+    "id": "SKU007",
+    "name": "Samsung 55\" Neo QLED 4K Smart TV",
+    "brand": "Samsung",
+    "category": "tv",
+    "price": 89999,
+    "originalPrice": 109999,
+    "discount": 18,
+    "rating": 4.5,
+    "reviews": 892,
+    "images": [
+      "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
+      "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg",
+      "https://images.pexels.com/photos/1201995/pexels-photo-1201995.jpeg"
+    ],
+    "description": "Neo QLED 4K Smart TV with Quantum HDR and Object Tracking Sound+.",
+    "features": [
+      "55-inch Neo QLED 4K display",
+      "Quantum HDR 32x",
+      "Object Tracking Sound+",
+      "Smart TV with Tizen OS",
+      "Gaming Hub with cloud gaming"
+    ],
+    "specifications": {
+      "Display": "55-inch Neo QLED 4K",
+      "Resolution": "3840 x 2160",
+      "Refresh Rate": "120Hz",
+      "HDR": "Quantum HDR 32x",
+      "Smart OS": "Tizen",
+      "Audio": "40W 2.2.2 channel"
+    },
+    "inStock": true,
+    "tags": ["4k", "smart-tv", "gaming", "large-screen"]
+  },
+
+  {
   "id": "RT28C3032GS/HL",
   "name": "Samsung 236 L Digital Inverter Frost Free Double Door Refrigerator",
   "brand": "Samsung",
