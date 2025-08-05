@@ -1,41 +1,6 @@
 [
 
   {
-    "id": "SKU007",
-    "name": "Samsung 55\" Neo QLED 4K Smart TV",
-    "brand": "Samsung",
-    "category": "tv",
-    "price": 89999,
-    "originalPrice": 109999,
-    "discount": 18,
-    "rating": 4.5,
-    "reviews": 892,
-    "images": [
-      "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
-      "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg",
-      "https://images.pexels.com/photos/1201995/pexels-photo-1201995.jpeg"
-    ],
-    "description": "Neo QLED 4K Smart TV with Quantum HDR and Object Tracking Sound+.",
-    "features": [
-      "55-inch Neo QLED 4K display",
-      "Quantum HDR 32x",
-      "Object Tracking Sound+",
-      "Smart TV with Tizen OS",
-      "Gaming Hub with cloud gaming"
-    ],
-    "specifications": {
-      "Display": "55-inch Neo QLED 4K",
-      "Resolution": "3840 x 2160",
-      "Refresh Rate": "120Hz",
-      "HDR": "Quantum HDR 32x",
-      "Smart OS": "Tizen",
-      "Audio": "40W 2.2.2 channel"
-    },
-    "inStock": true,
-    "tags": ["4k", "smart-tv", "gaming", "large-screen"]
-  },
-
-  {
   "id": "RT28C3032GS/HL",
   "name": "Samsung 236 L Digital Inverter Frost Free Double Door Refrigerator",
   "brand": "Samsung",
@@ -78,467 +43,200 @@
   },
   "inStock": true,
   "tags": ["energy‑efficient", "frost‑free", "digital‑inverter", "top‑mount"]
-}
-,
-
-  {
-  "id": "RT28C3032GS/HL",
-  "name": "Samsung 236 L Digital Inverter Frost Free Double Door Refrigerator",
-  "brand": "Samsung",
-  "category": "refrigerators",
-  "price": 22990,
-  "originalPrice": 30990,
-  "discount": 26,
-  "rating": 4.3,
-  "reviews": 18500,
+},
+{
+  "id": "43UR7550PSC",
+  "name": "LG UR75 43″ 4K Ultra HD LED Smart WebOS TV",
+  "brand": "LG",
+  "category": "televisions",
+  "price": 27158,
+  "originalPrice": 49990,
+  "discount": 36,
+  "rating": 4.4,
+  "reviews": 9200,
   "images": [
-    "https://images.samsung.com/is/image/samsung/p6pim/in/rt28c3032gs-hl/gallery/in-ref-tmf-rt3000-448889-rt28c3032gs-hl-535217591?$684_547_PNG$",
-    "https://www.jiomart.com/images/product/original/493692238/samsung-236-litres-2-star-double-door-refrigerator-gray-silver-rt28c3032gs-hl-digital-o493692238-p598255160-5-202302091958.jpeg?im=Resize%3D%28420%2C420%29",
-    "https://images.samsung.com/is/image/samsung/in-feature-evenly-cools-all-over-205335065?$FB_TYPE_C_JPG$",
-    "https://rukminim2.flixcart.com/image/704/844/xif0q/refrigerator-new/c/q/l/-original-imah3kehgfaq4skx.jpeg?crop=false&q=90"
+    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRG7udW1lMCXNoh0_RY5C2c84onMdS7SQkNpGuH9Yn8n62ifWSseGWu9FgSDieb_YCjAbe4OQWqWPySfpL3-ivxxXSq_sJ5UBCmTGBM-d4UJe0VgpM6lwR2",
+    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSjjl7TEEMoqEG29Z9PWVAHpVX0Q7-rndK9jt1Kvj1MRcwS4-2sNj5gGpC-2gZqj5NCQPLSlAlorTLNLdvPbCC_43vRwAggVYUyQp0ZuHPci0yjJPMEZIM",
+    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTwwzryqAhwRVMdt0RtdbrMuqv_Zl8Wnpws-waE7RoqqlGBBoNe1_QdfguMaJESfBmgGlHmbo6VVDCF7SIPVimhAVSffhWb59NbJBu6pQ",
+    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRzV9XwQDvT7RLaJwWG6YIvdm-MvNqJb7SXQQZjZaOwGRy80iQ_3-d61dh6uq97ebqNyxuKLoTCNJzcJcQUVkq9cXABrKANz1OHz4owmlx4gHLYaiqcPSs",
+    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSUjfcUygGAet-p_31a4VrOB-KfxYIxbmcgn2iypex1i5tQNhneOEVQI_R_4bfyn6wnIoFo0GTK7kN7_JhmAvTap4HsnZnWV2jGtSZ_JtRZiqH6o9apKA"
   ],
-  "description": "236 L top‑mount freezer refrigerator with Digital Inverter Compressor, Frost‑Free cooling, stabilizer‑free operation, and Smart features.",
+  "description": "43-inch 4K UHD Smart LED TV with α5 AI Processor 4K Gen6, HDR10, WebOS 23, and ThinQ AI features.",
   "features": [
-    "Digital Inverter Compressor with up to 20‑year warranty",
-    "Frost‑Free cooling system",
-    "Cool Pack for up to 12 h protection during power cuts",
-    "All‑around Multi‑Air‑Flow for even cooling",
-    "Easy Slide glass shelf",
-    "Movable Ice Maker",
-    "MoistFresh Zone for optimal humidity",
-    "Stabilizer‑free operation (100–300 V)",
-    "LED lighting & deodorizer"
+    "α5 AI Processor 4K Gen6",
+    "4K UHD Resolution (3840×2160)",
+    "HDR10 & HLG support",
+    "Filmmaker Mode",
+    "AI Sound (Virtual 5.1)",
+    "ALLM & Game Optimizer",
+    "ThinQ AI & WebOS 23",
+    "Magic Remote Compatible",
+    "Built-in Alexa & Apple AirPlay"
   ],
   "specifications": {
-    "Capacity": "236 litres (183 L fridge + 53 L freezer)",
-    "Star Rating": "2 Star (as per BEE 2023 update)",
-    "Shelf Material": "Toughened Glass",
-    "Compressor": "Digital Inverter Compressor",
-    "Refrigerant": "R‑600a",
-    "Dimensions": "55.5 × 63.7 × 154.5 cm",
-    "Weight": "46 kg",
-    "No. of Doors": "2",
-    "Air Flow": "Multi‑Air‑Flow",
-    "Defrost System": "Frost‑Free",
-    "Special Features": "Cool Pack, All‑around Cooling, Easy Slide Shelf, MoistFresh Zone, Door Alarm"
+    "Display Size": "43 inches (108 cm)",
+    "Resolution": "4K Ultra HD (3840×2160)",
+    "Refresh Rate": "60 Hz",
+    "Panel Type": "LED",
+    "Processor": "α5 AI Processor 4K Gen6",
+    "HDR": "HDR10, HLG",
+    "Sound Output": "20 W (2.0ch)",
+    "Operating System": "WebOS 23",
+    "Smart Features": "ThinQ AI, Game Optimizer, Filmmaker Mode, LG Content Store",
+    "Connectivity": "3 HDMI (1 eARC), 2 USB, Wi-Fi, Bluetooth 5.0, Ethernet",
+    "Dimensions": "967 × 621 × 200 mm (with stand)",
+    "Weight": "8.9 kg",
+    "Power": "AC 100–240 V, 50/60 Hz",
+    "Special Features": "AI Brightness Control, Apple AirPlay, Home Dashboard, Web Browser"
   },
   "inStock": true,
-  "tags": ["energy‑efficient", "frost‑free", "digital‑inverter", "top‑mount"]
+  "tags": ["4K‑UltraHD", "webOS", "α5‑processor", "HDR10", "smart‑tv", "LED", "thinQ‑ai"]
+},
+{
+  "id": "Galaxy A16 5G (6GB)",
+  "name": "Samsung Galaxy A16 5G (6GB RAM, 128GB Storage)",
+  "brand": "Samsung",
+  "category": "smartphones",
+  "price": 13119,
+  "originalPrice": 20999,
+  "discount": 19,
+  "rating": 4.0,
+  "reviews": 1500,
+  "images": [
+    "https://m.media-amazon.com/images/I/71OT7Wr67zL._SX569_.jpg",
+    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSl8dSBftTHVFh3glT0FfX7_rcfjiXo1m9FfTvIVCUfl_BUcmpwqtSxGXzb80DVQQeM0_nVcbB5o0qMXFcv5_Lbx8rX54VldGMr10fADmZKL3A0_SbOpKKC",
+    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSoif1obA0qbtTjydT2_fwCKNJKy9KJYM6_zMweTeQ5ytf1K4PTUKovGGmL5IaRLGjZA1zdFO78QzY7IOM_gozctFtiFW_a_QXUzBcmONdq50hb7zgJ-Ll9PA",
+    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ7Oe3OlSTuNvNPf0CNpL-i64C5TbKxZohvvsmcdpTGxa16vjN4Wv5z0Nvh5HTm4Awp1MnGhjDTSOb95jsic-7255ZHAE6s8khMnDWd-WZd1LOONXep82K1JA",
+    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTVLCZdwOihLQxUHHN0YrgBKnB-e720TQq2ILt9ui-GX-NNQxSsBK9Oa8Q9Ev1-d0XQT0o0vmb3C6-FTCNUM3e_lkkWeTKOFMNGq3g9oCnNx8ELGwVYA"
+  ],
+  "description": "6.7” Super AMOLED FHD+ display, 50 MP triple rear camera, 6 OS upgrades, Knox Security, Tap & Pay, and 5000mAh battery powered Android 14 smartphone.",
+  "features": [
+    "6.7” Full HD+ Super AMOLED display with 1M:1 contrast ratio",
+    "MediaTek Dimensity chipset with 2.4 GHz speed",
+    "50 MP triple rear camera with ultra-wide lens",
+    "13 MP front camera for selfies & video calls",
+    "Android 14 with 6 OS & 6 years security updates",
+    "IP54 rated splash & dust resistance",
+    "Samsung Knox Security Platform",
+    "Tap & Pay enabled for contactless payments",
+    "Voice Focus for clearer calling experience"
+  ],
+  "specifications": {
+    "Display": "6.7 inch Super AMOLED, FHD+ (2340×1080)",
+    "Processor": "2.4 GHz MediaTek Dimensity",
+    "RAM & Storage": "6 GB RAM, 128 GB storage (expandable)",
+    "Rear Camera": "50 MP + ultra-wide + macro triple camera",
+    "Front Camera": "13 MP selfie camera",
+    "Operating System": "Android 14",
+    "Software Support": "6 OS upgrades, 6 years security updates",
+    "Battery": "5000 mAh",
+    "Charging": "25 W wired charging (charger not included)",
+    "Durability": "IP54 dust & splash resistant",
+    "Security": "Samsung Knox platform",
+    "Connectivity": "5G, Bluetooth, Wi-Fi, NFC, USB-C",
+    "CPU Speed": "2.4 GHz",
+    "Weight": "≈192 g"
+  },
+  "inStock": true,
+  "tags": ["Super‑AMOLED", "Android‑14", "Knox‑Security", "IP54", "Tap‑Pay", "50‑MP", "6‑OS‑updates"]
+},
+{
+  "id": "83DV00XCIN",
+  "name": "Lenovo LOQ 2024 13th Gen Intel Core i5-13450HX Gaming Laptop",
+  "brand": "Lenovo",
+  "category": "laptops",
+  "price": 57999,
+  "originalPrice": 104490,
+  "discount": 32,
+  "rating": 3.9,
+  "reviews": 79,
+  "images": [
+    "https://m.media-amazon.com/images/I/81sI6re6MPL._SY450_.jpg",
+    "https://m.media-amazon.com/images/I/71br1pV8EML._SY450_.jpg",
+    "https://m.media-amazon.com/images/I/71MYHLcQvKL._SY450_.jpg",
+    "https://m.media-amazon.com/images/I/61SB2306IpL._SY450_.jpg",
+    "https://m.media-amazon.com/images/I/61Mh9FUUR6L._SY450_.jpg",
+    "https://m.media-amazon.com/images/I/71SkPVWjowL._SL1500_.jpg"
+  ],
+  "description": "15.6\" FHD 144Hz gaming laptop with Intel Core i5‑13450HX, RTX 3050 6GB GPU, DDR5 RAM, advanced cooling, Windows 11, and Office Home 2024.",
+  "features": [
+    "Intel Core i5‑13450HX (10 cores, 16 threads, up to 4.6 GHz)",
+    "NVIDIA GeForce RTX 3050 6GB GDDR6, 95W TGP",
+    "15.6\" FHD IPS display, 144 Hz refresh rate, 100% sRGB, anti‑glare",
+    "16 GB DDR5‑4800 MHz RAM (expandable to 32 GB)",
+    "512 GB PCIe Gen 4 NVMe SSD",
+    "Wi‑Fi 6 and Bluetooth 5.2 connectivity",
+    "HyperChamber dual‑fan cooling with sealed chamber design",
+    "Lenovo AI Engine+ and LA1 AI Chip with MUX Switch + NVIDIA Advanced Optimus",
+    "Windows 11 Home + MS Office Home 2024 pre‑installed"
+  ],
+  "specifications": {
+    "Processor": "Intel Core i5‑13450HX (2.4–4.6 GHz, 10C/16T, 20MB cache)",
+    "Graphics": "NVIDIA GeForce RTX 3050 6GB GDDR6, 95W TGP",
+    "RAM": "16 GB DDR5 (1×16 GB), expandable up to 32 GB",
+    "Storage": "512 GB M.2 PCIe Gen 4 SSD",
+    "Display": "15.6\" FHD (1920×1080) IPS, 144 Hz, 300 nits, 100% sRGB",
+    "Operating System": "Windows 11 Home",
+    "Software": "MS Office Home & Student 2024, Xbox Game Pass (3 months)",
+    "Connectivity": "Wi‑Fi 6, Bluetooth 5.2",
+    "Audio": "HD Audio, 2x speakers",
+    "Keyboard": "Backlit keyboard",
+    "Cooling": "HyperChamber dual fan cooling with Extreme Mode",
+    "Color": "Grey",
+    "Weight": "2.4 kg"
+  },
+  "inStock": true,
+  "tags": ["gaming", "RTX‑3050", "DDR5", "144Hz", "i5‑13450HX", "AI‑Engine", "MUX‑Switch"]
+},
+{
+  "id": "Zeno-BLDC-1200mm-Brown",
+  "name": "Orient Electric 1200 mm Zeno BLDC Ceiling Fan with Remote (Brown)",
+  "brand": "Orient Electric",
+  "category": "ceiling-fans",
+  "price": 26999,
+  "originalPrice": 4600,
+  "discount": 34,
+  "rating": 4.0,
+  "reviews": 3547,
+  "images": [
+    "https://m.media-amazon.com/images/I/51XBWGMm2XL._SX569_.jpg",
+    "https://m.media-amazon.com/images/I/714rZva6XKL._SX569_.jpg",
+    "https://m.media-amazon.com/images/I/71UOPjmRm8L._SX569_.jpg",
+    "https://m.media-amazon.com/images/I/61nYtCK1pTL._SX569_.jpg"
+  ],
+  "description": "1200 mm BLDC energy-saving ceiling fan with remote control, BEE 5-star rated, high air delivery, low power consumption, and 3-year Orient warranty.",
+  "features": [
+    "BLDC motor for up to 50% electricity savings",
+    "BEE 5-star energy rated for efficiency",
+    "Remote control for speed and ON/OFF operations",
+    "Silent operation with high torque performance",
+    "Low voltage operation: starts at 140V",
+    "3-year manufacturer warranty from Orient",
+    "32W power consumption only",
+    "Modern and sleek brown painted finish",
+    "Ideal for living room, bedroom, and more"
+  ],
+  "specifications": {
+    "Sweep Size": "1200 mm (48 inches)",
+    "Motor Type": "BLDC (Brushless DC Motor)",
+    "Wattage": "32 Watts",
+    "Speed Settings": "5-speed control via remote",
+    "Voltage Range": "Operates even at low voltage (140V+)",
+    "Remote Control": "Yes, with timer and speed control",
+    "Material": "Aluminum blades, metal body",
+    "Finish": "Painted (Brown)",
+    "Dimensions": "24.5 × 24.5 × 29 cm",
+    "Weight": "≈4.5 kg",
+    "Room Type": "Living room, bedroom, etc."
+  },
+  "inStock": true,
+  "tags": ["BLDC", "remote‑control", "energy‑efficient", "5‑star", "low‑power", "silent‑fan"]
 }
-,
 
 
-  
-  
-
-  {
-    "id": "SKU001",
-    "name": "iPhone 15 Pro Max",
-    "brand": "Apple",
-    "category": "smartphones",
-    "price": 159900,
-    "originalPrice": 169900,
-    "discount": 6,
-    "rating": 4.6,
-    "reviews": 2547,
-    "images": [
-      "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg",
-      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg"
-    ],
-    "description": "The most advanced iPhone yet with titanium design, A17 Pro chip, and ProRAW photography.",
-    "features": [
-      "6.7-inch Super Retina XDR display",
-      "A17 Pro chip with 6-core GPU",
-      "Pro camera system with 48MP Main camera",
-      "Up to 29 hours video playback",
-      "Titanium design with Ceramic Shield front"
-    ],
-    "specifications": {
-      "Display": "6.7-inch Super Retina XDR",
-      "Processor": "A17 Pro chip",
-      "Storage": "256GB",
-      "Camera": "48MP + 12MP + 12MP",
-      "Battery": "4441 mAh",
-      "Operating System": "iOS 17"
-    },
-    "inStock": true,
-    "tags": ["premium", "latest", "bestseller"]
-  },
 
 
-  {
-    "id": "SKU002",
-    "name": "Samsung Galaxy S24 Ultra",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 134999,
-    "originalPrice": 149999,
-    "discount": 10,
-    "rating": 4.5,
-    "reviews": 1876,
-    "images": [
-      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg",
-      "https://images.pexels.com/photos/1419923/pexels-photo-1419923.jpeg",
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
-    ],
-    "description": "Ultimate Galaxy experience with S Pen, AI features, and professional-grade camera system.",
-    "features": [
-      "6.8-inch Dynamic AMOLED 2X display",
-      "Snapdragon 8 Gen 3 processor",
-      "200MP main camera with Space Zoom",
-      "Built-in S Pen",
-      "5000mAh battery with 45W fast charging"
-    ],
-    "specifications": {
-      "Display": "6.8-inch Dynamic AMOLED 2X",
-      "Processor": "Snapdragon 8 Gen 3",
-      "Storage": "256GB",
-      "Camera": "200MP + 50MP + 12MP + 10MP",
-      "Battery": "5000 mAh",
-      "Operating System": "Android 14"
-    },
-    "inStock": true,
-    "tags": ["s-pen", "zoom", "android"]
-  },
-  {
-    "id": "SKU003",
-    "name": "MacBook Air M3",
-    "brand": "Apple",
-    "category": "laptops",
-    "price": 134900,
-    "originalPrice": 134900,
-    "discount": 0,
-    "rating": 4.8,
-    "reviews": 892,
-    "images": [
-      "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg",
-      "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg"
-    ],
-    "description": "Supercharged by the M3 chip, MacBook Air delivers exceptional performance in an incredibly thin design.",
-    "features": [
-      "Apple M3 chip with 8-core CPU",
-      "13.6-inch Liquid Retina display",
-      "Up to 18 hours battery life",
-      "1080p FaceTime HD camera",
-      "Four-speaker sound system with Spatial Audio"
-    ],
-    "specifications": {
-      "Display": "13.6-inch Liquid Retina",
-      "Processor": "Apple M3 chip",
-      "Storage": "256GB SSD",
-      "Memory": "8GB unified memory",
-      "Battery": "Up to 18 hours",
-      "Operating System": "macOS Sonoma"
-    },
-    "inStock": true,
-    "tags": ["lightweight", "powerful", "productivity"]
-  },
-  {
-    "id": "SKU004",
-    "name": "Dell XPS 13",
-    "brand": "Dell",
-    "category": "laptops",
-    "price": 89999,
-    "originalPrice": 99999,
-    "discount": 10,
-    "rating": 4.4,
-    "reviews": 567,
-    "images": [
-      "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-      "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg",
-      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg"
-    ],
-    "description": "Premium ultrabook with stunning InfinityEdge display and powerful performance.",
-    "features": [
-      "13.4-inch InfinityEdge display",
-      "Intel Core i7-1360P processor",
-      "16GB LPDDR5 RAM",
-      "512GB PCIe NVMe SSD",
-      "Windows 11 Home"
-    ],
-    "specifications": {
-      "Display": "13.4-inch FHD+ InfinityEdge",
-      "Processor": "Intel Core i7-1360P",
-      "Storage": "512GB SSD",
-      "Memory": "16GB LPDDR5",
-      "Battery": "Up to 12 hours",
-      "Operating System": "Windows 11"
-    },
-    "inStock": true,
-    "tags": ["business", "ultrabook", "windows"]
-  },
-  {
-    "id": "SKU005",
-    "name": "Sony WH-1000XM5",
-    "brand": "Sony",
-    "category": "headphones",
-    "price": 29990,
-    "originalPrice": 34990,
-    "discount": 14,
-    "rating": 4.7,
-    "reviews": 3421,
-    "images": [
-      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
-      "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg",
-      "https://images.pexels.com/photos/8156118/pexels-photo-8156118.jpeg"
-    ],
-    "description": "Industry-leading noise canceling headphones with exceptional sound quality.",
-    "features": [
-      "Industry-leading noise canceling",
-      "30-hour battery life",
-      "Quick Charge (3 min = 3 hours)",
-      "Multipoint connection",
-      "Speak-to-Chat technology"
-    ],
-    "specifications": {
-      "Driver": "30mm dynamic drivers",
-      "Frequency Response": "4Hz-40kHz",
-      "Battery Life": "30 hours",
-      "Charging": "USB-C quick charge",
-      "Connectivity": "Bluetooth 5.2",
-      "Weight": "250g"
-    },
-    "inStock": true,
-    "tags": ["noise-canceling", "premium", "wireless"]
-  },
-  {
-    "id": "SKU006",
-    "name": "Apple AirPods Pro 2",
-    "brand": "Apple",
-    "category": "headphones",
-    "price": 24900,
-    "originalPrice": 26900,
-    "discount": 7,
-    "rating": 4.6,
-    "reviews": 2145,
-    "images": [
-      "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg",
-      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
-      "https://images.pexels.com/photos/8279/pexels-photo-8279.jpg"
-    ],
-    "description": "Next-generation AirPods Pro with up to 2x more Active Noise Cancellation.",
-    "features": [
-      "Up to 2x more Active Noise Cancellation",
-      "Adaptive Transparency mode",
-      "Personalized Spatial Audio with dynamic head tracking",
-      "Up to 6 hours listening time",
-      "MagSafe Charging Case"
-    ],
-    "specifications": {
-      "Driver": "Custom high-excursion Apple driver",
-      "Chip": "Apple H2 chip",
-      "Battery Life": "6 hours + 24 hours with case",
-      "Charging": "Lightning/MagSafe",
-      "Connectivity": "Bluetooth 5.3",
-      "Water Resistance": "IPX4"
-    },
-    "inStock": true,
-    "tags": ["true-wireless", "anc", "apple-ecosystem"]
-  },
-  {
-    "id": "SKU007",
-    "name": "Samsung 55\" Neo QLED 4K Smart TV",
-    "brand": "Samsung",
-    "category": "tv",
-    "price": 89999,
-    "originalPrice": 109999,
-    "discount": 18,
-    "rating": 4.5,
-    "reviews": 892,
-    "images": [
-      "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
-      "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg",
-      "https://images.pexels.com/photos/1201995/pexels-photo-1201995.jpeg"
-    ],
-    "description": "Neo QLED 4K Smart TV with Quantum HDR and Object Tracking Sound+.",
-    "features": [
-      "55-inch Neo QLED 4K display",
-      "Quantum HDR 32x",
-      "Object Tracking Sound+",
-      "Smart TV with Tizen OS",
-      "Gaming Hub with cloud gaming"
-    ],
-    "specifications": {
-      "Display": "55-inch Neo QLED 4K",
-      "Resolution": "3840 x 2160",
-      "Refresh Rate": "120Hz",
-      "HDR": "Quantum HDR 32x",
-      "Smart OS": "Tizen",
-      "Audio": "40W 2.2.2 channel"
-    },
-    "inStock": true,
-    "tags": ["4k", "smart-tv", "gaming", "large-screen"]
-  },
-  {
-    "id": "SKU008",
-    "name": "LG 65\" OLED C3 Smart TV",
-    "brand": "LG",
-    "category": "tv",
-    "price": 164999,
-    "originalPrice": 184999,
-    "discount": 11,
-    "rating": 4.8,
-    "reviews": 1234,
-    "images": [
-      "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg",
-      "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
-      "https://images.pexels.com/photos/275502/pexels-photo-275502.jpeg"
-    ],
-    "description": "Self-lit OLED pixels deliver perfect blacks and infinite contrast for exceptional picture quality.",
-    "features": [
-      "65-inch OLED evo display",
-      "α9 Gen6 AI Processor 4K",
-      "Dolby Vision IQ & Dolby Atmos",
-      "webOS 23 Smart Platform",
-      "4 HDMI 2.1 ports for gaming"
-    ],
-    "specifications": {
-      "Display": "65-inch OLED evo",
-      "Resolution": "3840 x 2160",
-      "Refresh Rate": "120Hz",
-      "HDR": "Dolby Vision IQ, HDR10",
-      "Smart OS": "webOS 23",
-      "Audio": "40W 2.2 channel"
-    },
-    "inStock": true,
-    "tags": ["oled", "premium", "cinema", "gaming"]
-  },
-  {
-    "id": "SKU009",
-    "name": "Canon EOS R5",
-    "brand": "Canon",
-    "category": "cameras",
-    "price": 324999,
-    "originalPrice": 349999,
-    "discount": 7,
-    "rating": 4.9,
-    "reviews": 456,
-    "images": [
-      "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg",
-      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg",
-      "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg"
-    ],
-    "description": "Professional mirrorless camera with 45MP full-frame sensor and 8K video recording.",
-    "features": [
-      "45MP Full-Frame CMOS Sensor",
-      "8K RAW Video Recording",
-      "Dual Pixel CMOS AF II",
-      "5-axis In-Body Image Stabilization",
-      "Weather-sealed magnesium alloy body"
-    ],
-    "specifications": {
-      "Sensor": "45MP Full-Frame CMOS",
-      "Video": "8K RAW, 4K 120p",
-      "Autofocus": "1053 AF points",
-      "ISO Range": "100-51200",
-      "Battery Life": "490 shots",
-      "Weight": "738g"
-    },
-    "inStock": true,
-    "tags": ["professional", "8k-video", "mirrorless"]
-  },
-  {
-    "id": "SKU010",
-    "name": "Nike Air Max 270",
-    "brand": "Nike",
-    "category": "footwear",
-    "price": 12995,
-    "originalPrice": 14995,
-    "discount": 13,
-    "rating": 4.3,
-    "reviews": 2890,
-    "images": [
-      "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
-      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg",
-      "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg"
-    ],
-    "description": "Lifestyle sneakers with Max Air unit for all-day comfort and style.",
-    "features": [
-      "Max Air unit in heel",
-      "Breathable mesh upper",
-      "Foam midsole for comfort",
-      "Rubber outsole with flex grooves",
-      "Pull tabs for easy on/off"
-    ],
-    "specifications": {
-      "Upper Material": "Mesh and synthetic",
-      "Sole": "Rubber with Air Max unit",
-      "Closure": "Lace-up",
-      "Weight": "310g (per shoe)",
-      "Available Sizes": "6-12 UK",
-      "Care": "Spot clean only"
-    },
-    "inStock": true,
-    "tags": ["lifestyle", "comfort", "air-max"]
-  },
-  {
-    "id": "SKU011",
-    "name": "Dyson V15 Detect",
-    "brand": "Dyson",
-    "category": "home-appliances",
-    "price": 65900,
-    "originalPrice": 69900,
-    "discount": 6,
-    "rating": 4.7,
-    "reviews": 1234,
-    "images": [
-      "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg",
-      "https://images.pexels.com/photos/4239090/pexels-photo-4239090.jpeg",
-      "https://images.pexels.com/photos/5824901/pexels-photo-5824901.jpeg"
-    ],
-    "description": "Intelligent cordless vacuum with laser dust detection and powerful suction.",
-    "features": [
-      "Laser dust detection",
-      "60 minutes run time",
-      "Intelligent suction adjustment",
-      "Advanced whole-machine filtration",
-      "Converts to handheld"
-    ],
-    "specifications": {
-      "Suction Power": "230 AW",
-      "Run Time": "Up to 60 minutes",
-      "Bin Capacity": "0.77L",
-      "Weight": "3.0kg",
-      "Filtration": "Advanced whole-machine",
-      "Warranty": "2 years"
-    },
-    "inStock": true,
-    "tags": ["cordless", "laser-detection", "premium"]
-  },
-  {
-    "id": "SKU012",
-    "name": "Fossil Gen 6 Smartwatch",
-    "brand": "Fossil",
-    "category": "wearables",
-    "price": 24995,
-    "originalPrice": 27995,
-    "discount": 11,
-    "rating": 4.2,
-    "reviews": 876,
-    "images": [
-      "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
-      "https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg",
-      "https://images.pexels.com/photos/1034063/pexels-photo-1034063.jpeg"
-    ],
-    "description": "Wear OS smartwatch with health tracking and customizable watch faces.",
-    "features": [
-      "Wear OS by Google",
-      "Heart rate & SpO2 tracking",
-      "GPS and NFC payments",
-      "Customizable watch faces",
-      "Water resistant up to 3ATM"
-    ],
-    "specifications": {
-      "Display": "1.28-inch AMOLED",
-      "Processor": "Snapdragon Wear 4100+",
-      "Storage": "8GB",
-      "Battery": "24+ hours",
-      "Connectivity": "Bluetooth, WiFi, GPS",
-      "Compatibility": "Android 6.0+, iOS 12.0+"
-    },
-    "inStock": true,
-    "tags": ["wear-os", "fitness", "smartwatch"]
-  }
+
+
+
 ]
