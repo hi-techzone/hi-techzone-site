@@ -235,7 +235,7 @@ class FlipMart {
             this.removeFromCart(productId);
         });
 
-        $('#generate-bill').on('click', () => this.generateBill());
+        $(document).on('click', '#generate-bill', () => this.generateBill());
         $('#place-order').on('click', () => this.placeOrder());
 
         // Quick actions
@@ -849,7 +849,7 @@ class FlipMart {
         cartHTML += '</div>';
 
         // Cart summary
-        const tax = subtotal * 0.18; // 18% GST
+        const tax = subtotal * 0; // 18% GST
         const shipping = subtotal > 10000 ? 0 : 100;
         total = subtotal + tax + shipping;
 
@@ -862,7 +862,7 @@ class FlipMart {
                         <span>₹${subtotal.toLocaleString('en-IN')}</span>
                     </div>
                     <div class="d-flex justify-content-between mb-2">
-                        <span>GST (18%):</span>
+                        <span>GST (0%):</span>
                         <span>₹${tax.toLocaleString('en-IN')}</span>
                     </div>
                     <div class="d-flex justify-content-between mb-2">
@@ -1046,97 +1046,100 @@ class FlipMart {
     }
 
     generateBill() {
-        if (this.cart.length === 0) {
-            this.showToast('Cart is empty', 'warning');
-            return;
-        }
+    if (this.cart.length === 0) {
+        this.showToast('Cart is empty', 'warning');
+        return;
+    }
 
-        let billHTML = '';
-        let subtotal = 0;
+    let billHTML = '';
+    let subtotal = 0;
 
-        // Bill header
+    // Bill header
+    billHTML += `
+        <div class="text-center mb-4">
+            <h3 class="text-primary">hitech</h3>
+            <p class="mb-0">Invoice #FM${Date.now()}</p>
+            <p class="text-muted">${new Date().toLocaleDateString('en-IN')}</p>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+
+    // Bill items
+    this.cart.forEach(item => {
+        const product = this.products.find(p => p.id === item.productId);
+        if (!product) return;
+
+        const itemTotal = product.price * item.quantity;
+        subtotal += itemTotal;
+
         billHTML += `
-            <div class="text-center mb-4">
-                <h3 class="text-primary">FlipMart</h3>
-                <p class="mb-0">Invoice #FM${Date.now()}</p>
-                <p class="text-muted">${new Date().toLocaleDateString('en-IN')}</p>
-            </div>
-            <div class="table-responsive">
-                <table class="table">
-                    <thead class="table-primary">
-                        <tr>
-                            <th>Product</th>
-                            <th>Price</th>
-                            <th>Qty</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-        `;
-
-        // Bill items
-        this.cart.forEach(item => {
-            const product = this.products.find(p => p.id === item.productId);
-            if (!product) return;
-
-            const itemTotal = product.price * item.quantity;
-            subtotal += itemTotal;
-
-            billHTML += `
-                <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                            <img src="${product.images[0]}" width="50" height="50" class="me-3 rounded" alt="${product.name}">
-                            <div>
-                                <div class="fw-bold">${product.name}</div>
-                                <small class="text-muted">${product.brand}</small>
-                            </div>
+            <tr>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <img src="${product.images[0]}" width="50" height="50" class="me-3 rounded" alt="${product.name}">
+                        <div>
+                            <div class="fw-bold">${product.name}</div>
+                            <small class="text-muted">${product.brand}</small>
                         </div>
-                    </td>
-                    <td>₹${product.price.toLocaleString('en-IN')}</td>
-                    <td>${item.quantity}</td>
-                    <td>₹${itemTotal.toLocaleString('en-IN')}</td>
-                </tr>
-            `;
-        });
+                    </div>
+                </td>
+                <td>₹${product.price.toLocaleString('en-IN')}</td>
+                <td>${item.quantity}</td>
+                <td>₹${itemTotal.toLocaleString('en-IN')}</td>
+            </tr>
+        `;
+    });
 
-        // Bill summary
-        const tax = subtotal * 0.18;
-        const shipping = subtotal > 10000 ? 0 : 100;
-        const total = subtotal + tax + shipping;
+    // Bill summary
+    const tax = subtotal * 0;
+    const shipping = subtotal > 10000 ? 0 : 100;
+    const total = subtotal + tax + shipping;
 
-        billHTML += `
-                    </tbody>
+    billHTML += `
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-6">
+                <table class="table">
+                    <tr>
+                        <td>Subtotal:</td>
+                        <td class="text-end">₹${subtotal.toLocaleString('en-IN')}</td>
+                    </tr>
+                    <tr>
+                        <td>GST (0%):</td>
+                        <td class="text-end">₹${tax.toLocaleString('en-IN')}</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping:</td>
+                        <td class="text-end">${shipping === 0 ? 'FREE' : '₹' + shipping}</span></td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td class="fw-bold">Grand Total:</td>
+                        <td class="text-end fw-bold">₹${total.toLocaleString('en-IN')}</td>
+                    </tr>
                 </table>
             </div>
-            <div class="row">
-                <div class="col-md-6 offset-md-6">
-                    <table class="table">
-                        <tr>
-                            <td>Subtotal:</td>
-                            <td class="text-end">₹${subtotal.toLocaleString('en-IN')}</td>
-                        </tr>
-                        <tr>
-                            <td>GST (18%):</td>
-                            <td class="text-end">₹${tax.toLocaleString('en-IN')}</td>
-                        </tr>
-                        <tr>
-                            <td>Shipping:</td>
-                            <td class="text-end">${shipping === 0 ? 'FREE' : '₹' + shipping}</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td class="fw-bold">Grand Total:</td>
-                            <td class="text-end fw-bold">₹${total.toLocaleString('en-IN')}</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        `;
+        </div>
+    `;
 
-        $('#bill-content').html(billHTML);
-        const billModal = new bootstrap.Modal($('#billModal')[0]);
-        billModal.show();
-    }
+    // Update the bill content
+    $('#bill-content').html(billHTML);
+    
+    // Initialize and show the modal
+    const billModal = new bootstrap.Modal(document.getElementById('billModal'));
+    billModal.show();
+}
 
     placeOrder() {
         // Simulate order placement
