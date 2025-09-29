@@ -1,5 +1,75 @@
 [
 
+  {
+  "id": "BPL-65UE5530-65inch-QLED",
+  "name": "BPL 65UE5530 65-inch Ultra HD (4K) QLED Smart TV",
+  "brand": "BPL",
+  "category": "televisions",
+  "price": null,
+  "originalPrice": null,
+  "discount": null,
+  "rating": null,
+  "reviews": null,
+  "images": [
+    "https://www.reliancedigital.in/akamai/images/products/BPL-65Q-HOMETHEATR-494443468-27.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-65Q-HOMETHEATR-494443468-26.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-65Q-HOMETHEATR-494443468-23.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-65Q-HOMETHEATR-494443468-22.jpg"
+  ],
+  "description": "65-inch Ultra HD (4K) QLED Smart TV with Dolby Vision, Dolby Atmos, MEMC, Google TV, Dual Band Wi-Fi, and Harman AudioEFX speakers for a cinematic experience.",
+  "features": [
+    "QLED MAX display with Wide Color Gamut > 100%",
+    "4K resolution (3840 x 2160) with HDR10/HLG and Dolby Vision",
+    "MEMC & ALLM for smooth motion",
+    "Dynamic Contrast, Micro Dimming, and Dynamic Noise Reduction",
+    "Google TV & Google Cast support with preloaded apps",
+    "Dual Band Wi-Fi and Two-way Bluetooth",
+    "30W down firing box speakers with in-built 6W tweeter",
+    "Bezel-less design for immersive viewing"
+  ],
+  "specifications": {
+    "Model": "65UE5530",
+    "Color": "Black",
+    "Screen Size": "165 cm (65 inch)",
+    "Display Technology": "QLED",
+    "Display Type": "Ultra HD (4K)",
+    "Contrast Ratio": "6000:1",
+    "Refresh Rate": "60 Hz",
+    "Response Time": "6.5 ms",
+    "Resolution": "3840 x 2160",
+    "HDR": "Yes (HDR10, HLG, Dolby Vision)",
+    "HDMI Ports": 3,
+    "USB Ports": 2,
+    "Connectivity": "Wi-Fi, Ethernet (LAN), eARC, Digital Audio, 3.5 mm Jack, Composite (AV)",
+    "Audio": "30W Speakers with Dolby Atmos & Harman AudioEFX",
+    "Power Consumption": "230 W",
+    "Standby Power": "0.5 W",
+    "Power Supply": "100-240V/50-60Hz",
+    "Dimensions (L×W×H)": "145.35 × 34.29 × 93.12 cm",
+    "Weight": "25 kg"
+  },
+  "warranty": {
+    "Summary": "3 Years Warranty",
+    "CustomerCare": {
+      "Phone": "1800-889-1055",
+      "Email": "reliancedigital@ril.com",
+      "Address": "Reliance Digital, Reliance Retail Limited, 3rd Floor, Court House, Lokmanya Tilak Marg, Dhobi T"
+    }
+  },
+  "inBoxItems": [
+    "IR + BT Remote",
+    "Batteries",
+    "Wall Mount Stand",
+    "Table Top Stand"
+  ],
+  "inStock": true,
+  "tags": ["QLED", "4K", "Dolby-Atmos", "Dolby-Vision", "Google-TV", "Bezel-less", "Smart-TV"]
+},
+
+
+
+  
+
   
   {
   "id": "Samsung-WA70A4022FS-TL-7kg-Grey",
