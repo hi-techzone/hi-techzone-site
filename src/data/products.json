@@ -1,5 +1,63 @@
 [
 
+{
+  "id": "BPL-55UF2340-55inch-UHD",
+  "name": "BPL Home Theater TV 55UF2340 55-inch Ultra HD (4K) Smart TV",
+  "brand": "BPL",
+  "series": "BPL Home Theater TV",
+  "category": "televisions",
+  "price": 35999,
+  "originalPrice": 40000,
+  "discount": 10,
+  "rating": 4.2,
+  "reviews": 1243,
+  "images": [
+    
+    "https://www.reliancedigital.in/akamai/images/products/BPL4KHometheatreOnkyoTV_29.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL4KHometheatreOnkyoTV_20.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL4KHometheatreOnkyoTV_24.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL4KHometheatreOnkyoTV_25.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL4KHometheatreOnkyoTV_26.jpg"
+  ],
+  "description": "55-inch Ultra HD (4K) Smart TV with HDR, 60Hz refresh rate, multiple connectivity options, and immersive 20W sound output. Slim design suitable for wall mounting or table stand placement.",
+  "features": [
+    "55-inch Ultra HD (4K) display with HDR support",
+    "3840 × 2160 resolution for sharp picture quality",
+    "60 Hz refresh rate with 8 ms response time",
+    "3 HDMI and 2 USB ports for connectivity",
+    "20W RMS sound output with Digital Audio Out",
+    "Supports Ethernet, Wi-Fi, and screen casting",
+    "Bezel-less slim design",
+    "Power efficient with 140W consumption and 0.5W standby"
+  ],
+  "specifications": {
+    "Model": "55UF2340",
+    "Color": "Black",
+    "Screen Size": "139 cm (55 inch)",
+    "Display Type": "Ultra HD (4K)",
+    "Resolution": "3840 x 2160",
+    "Contrast Ratio": "1200:1",
+    "Refresh Rate": "60 Hz",
+    "Response Time": "8 ms",
+    "HDR": "Yes",
+    "HDMI Ports": 3,
+    "USB Ports": 2,
+    "Connectivity": "Wi-Fi, Ethernet (LAN), HDMI, RF, Digital Audio Out, Earphone Out",
+    "Audio Output": "20W RMS",
+    "Stand Dimensions": "1226.6 × 297 × 771.2 cm",
+    "Wall Mount Dimensions": "1226.6 × 87.2 × 718.1 cm",
+    "Weight": "10.6 kg",
+    "Power Consumption": "140 W",
+    "Standby Power": "0.5 W",
+    "Power Supply": "AC100-240V 50-60 Hz"
+  },
+  "warranty": {
+    "Summary": "3 Years Warranty"
+  },
+  "inStock": true,
+  "tags": ["4K", "UHD", "Smart-TV", "HDR", "55-inch", "BPL"]
+},
+  
   {
   "id": "BPL-65UE5530-65inch-QLED",
   "name": "BPL 65UE5530 65-inch Ultra HD (4K) QLED Smart TV",
