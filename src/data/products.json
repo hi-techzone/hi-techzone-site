@@ -1,6 +1,64 @@
 [
 
+  {
+  "id": "BPL-32H-E5341-32inch-HD",
+  "name": "BPL 32H-E5341 32-inch HD Smart Google TV",
+  "brand": "BPL",
+  "category": "televisions",
+  "price": 17000,
+  "originalPrice": 25990,
+  "discount": 35,
+  "rating": 4.2,
+  "reviews": 842,
+  "images": [
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32-HD-HOME-THEATRE-494410395-30.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32-HD-HOME-THEATRE-494410395-34.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32-HD-HOME-THEATRE-494410395-35.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32-HD-HOME-THEATRE-494410395-36.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32-HD-HOME-THEATRE-494410395-27.jpg"
+  ],
+  "description": "BPL 32-inch HD Smart TV with Google TV OS, Dolby Audio, HDR support, and preloaded apps like Netflix, Amazon Prime Video, JioCinema, and YouTube.",
+  "features": [
+    "81 cm (32 inch) HD display (1366 x 768 resolution)",
+    "Google TV operating system",
+    "HDR support with 60Hz refresh rate",
+    "Dolby Audio surround sound",
+    "Preloaded apps: Netflix, Amazon Prime Video, JioCinema, YouTube and more",
+    "3 HDMI and 2 USB ports",
+    "Wi-Fi and Ethernet connectivity",
+    "Energy efficient: 55W power consumption"
+  ],
+  "specifications": {
+    "Model": "32H-E5341",
+    "Display Type": "HD",
+    "Resolution": "1366 x 768",
+    "Contrast Ratio": "1200:1",
+    "Refresh Rate": "60Hz",
+    "Response Time": "8 ms",
+    "HDR": "Yes",
+    "Smart OS": "Google TV",
+    "Connectivity": {
+      "HDMI": 3,
+      "USB": 2,
+      "Audio Jack": "3.5 mm",
+      "Wi-Fi": "Yes",
+      "Ethernet": "Yes"
+    },
+    "Audio": "Dolby Audio",
+    "Power Consumption": "55W (0.5W standby)",
+    "Power Supply": "100-240V"
+  },
+  "warranty": {
+    "Summary": "1 Year Manufacturer Warranty"
+  },
+  "inStock": true,
+  "tags": ["BPL", "HD", "Smart-TV", "32-inch", "Google-TV", "Dolby-Audio", "HDR"]
+}
 
+
+  ,
+  
+  
   {
   "id": "LG-32LQ636BPSA-32inch-HD",
   "name": "LG 32LQ636BPSA 32-inch HD Smart TV",
