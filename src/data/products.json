@@ -1,6 +1,64 @@
 [
 
-{
+  {
+  "id": "BPL-32HF2301-32inch-HD",
+  "name": "BPL 32HF2301 32-inch HD Smart TV",
+  "brand": "BPL",
+  "category": "televisions",
+  "price": 12500,
+  "originalPrice": 14999,
+  "discount": 17,
+  "rating": 4.1,
+  "reviews": 876,
+  "images": [
+    "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:450/WutSK1SV3D-bpl-32hf2301-smart-tv-494581077-i-1-1200wx1200h.jpeg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32HF2301-Smart-TV-494581077-25.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32HF2301-Smart-TV-494581077-23.jpg",
+    "https://www.reliancedigital.in/akamai/images/products/BPL-32HF2301-Smart-TV-494581077-22.jpg"
+  ],
+  "description": "32-inch HD Smart TV with ADS Panel, 60Hz refresh rate, bezel-less design, preloaded apps like JioHotstar, SonyLiv, Zee5, YouTube, Prime Video, and built-in Wi-Fi for streaming.",
+  "features": [
+    "HD Ready resolution (1366 x 768)",
+    "ADS Panel with 1200:1 contrast ratio",
+    "60 Hz refresh rate, 8 ms response time",
+    "Bezel-less slim design",
+    "20W powerful speakers",
+    "Preloaded apps: JioHotstar, SonyLiv, Zee5, YouTube, Prime Video, Live TV",
+    "Built-in Wi-Fi and screencast support",
+    "3 HDMI and 2 USB ports",
+    "Lightweight design (3.9 kg)"
+  ],
+  "specifications": {
+    "Model": "32HF2301",
+    "Color": "Black",
+    "Screen Size": "80 cm (32 inch)",
+    "Display Type": "HD",
+    "Resolution": "1366 x 768",
+    "Panel Type": "ADS",
+    "Contrast Ratio": "1200:1",
+    "Refresh Rate": "60 Hz",
+    "Response Time": "8 ms",
+    "HDR": "No",
+    "HDMI Ports": 3,
+    "USB Ports": 2,
+    "Connectivity": "Wi-Fi, HDMI, USB, RF, Optical",
+    "Audio Output": "20W speakers",
+    "Stand Dimensions": "72.2 × 17.5 × 46.8 cm",
+    "Wall Mount Dimensions": "72.2 × 8.6 × 42.5 cm",
+    "Weight": "3.9 kg",
+    "Power Consumption": "55 W",
+    "Power Supply": "100-240V, 50/60 Hz"
+  },
+  "warranty": {
+    "Summary": "1 Year Manufacturer Warranty"
+  },
+  "inStock": true,
+  "tags": ["HD", "Smart-TV", "32-inch", "Wi-Fi", "Bezel-less", "BPL"]
+}
+
+
+  
+,{
   "id": "BPL-55UF2340-55inch-UHD",
   "name": "BPL Home Theater TV 55UF2340 55-inch Ultra HD (4K) Smart TV",
   "brand": "BPL",
