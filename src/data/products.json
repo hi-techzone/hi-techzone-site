@@ -1,6 +1,72 @@
 [
 
+
   {
+  "id": "LG-32LQ636BPSA-32inch-HD",
+  "name": "LG 32LQ636BPSA 32-inch HD Smart TV",
+  "brand": "LG",
+  "category": "televisions",
+  "price": 16499,
+  "originalPrice": 20999,
+  "discount": 21,
+  "rating": 4.3,
+  "reviews": 1124,
+  "images": [
+    "https://www.lg.com/content/dam/channel/wcms/in/images/tv-images/gallery/43UA83006LA_2010x1334_1.jpg/jcr:content/renditions/thum-1600x1062.jpeg",
+    "https://www.lg.com/content/dam/channel/wcms/in/images/tv/feature/fhd-2022/32LQ636BPSA-tv-fhd-06-eco-packing-desktop.jpg",
+    "https://www.lg.com/content/dam/channel/wcms/in/images/tv/feature/fhd-2022/32LQ573BPSA-tv-fhd-05-2-game-optimzer-desktop.jpg",
+    "https://www.lg.com/content/dam/channel/wcms/in/images/tv/feature/fhd-2022/tv-fhd-04-1-hdr-10-pro-D.jpg",
+    "https://www.lg.com/content/dam/channel/wcms/in/images/feature-main/dz.jpg"
+  ],
+  "description": "LG 32-inch HD Smart TV with α5 AI Processor Gen6, HDR10 / HLG, webOS 23, AI Sound (Virtual 5.1), Game Optimizer, and intelligent voice recognition.",
+  "features": [
+    "32-inch HD display (1366 x 768 resolution)",
+    "α5 AI Processor Gen6 with AI Brightness Control",
+    "HDR10 / HLG support with Dynamic Tone Mapping",
+    "AI Upscaling and 8 picture modes",
+    "Game Optimizer with HGIG Mode & Game Dashboard",
+    "webOS 23 with AI chatbot, full web browser, LG Channels",
+    "Supports Apple Airplay & Apple Home",
+    "AI Sound (Virtual 5.1) with Clear Voice Pro",
+    "Bluetooth Surround Ready, LG Sound Sync",
+    "2 HDMI (eARC), 1 USB, Optical, RF, Ethernet, Wi-Fi 5, Bluetooth 5.0",
+    "Slim bezel design with 200x200 VESA mount support"
+  ],
+  "specifications": {
+    "Model": "32LQ636BPSA",
+    "Display Type": "HD Direct LED",
+    "Resolution": "1366 x 768",
+    "Refresh Rate": "60Hz",
+    "Processor": "α5 AI Processor Gen6",
+    "HDR": "HDR10 / HLG",
+    "Sound Output": "10W (2.0 Channel, Down Firing)",
+    "Smart OS": "webOS 23",
+    "Connectivity": {
+      "HDMI": 2,
+      "USB": 1,
+      "Bluetooth": "Yes, v5.0",
+      "Wi-Fi": "Yes, Wi-Fi 5",
+      "Ethernet": 1,
+      "Optical Out": 1,
+      "RF Input": 2
+    },
+    "Dimensions without Stand": "739 x 441 x 84 mm",
+    "Dimensions with Stand": "739 x 472 x 168 mm",
+    "Weight without Stand": "4.85 kg",
+    "Weight with Stand": "4.90 kg",
+    "VESA Mount": "200 x 200",
+    "Power Consumption": "Under 0.5W standby, AC 100~240V 50-60Hz"
+  },
+  "warranty": {
+    "Summary": "1 Year Manufacturer Warranty"
+  },
+  "inStock": true,
+  "tags": ["LG", "HD", "Smart-TV", "32-inch", "HDR10", "webOS23", "AI-Processor"]
+}
+
+
+  
+  ,{
   "id": "BPL-32HF2301-32inch-HD",
   "name": "BPL 32HF2301 32-inch HD Smart TV",
   "brand": "BPL",
